@@ -1,4 +1,4 @@
-<h1 align=center>😈EVIL BOT😈</h1>
+<h1 align=center>🤭Sbinobu Kocho😋</h1>
 <img src = "https://telegra.ph/file/f572da51b422a470818cb.jpg">
 
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
