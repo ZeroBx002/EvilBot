@@ -64,23 +64,23 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`𝙷𝚎𝚕𝚕𝚘` [👿](https://telegra.ph/file/b1ae67fad00c60d51a5f2.jpg) `𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜` *𝙴𝚟𝚒𝚕 𝚁𝚘𝚋𝚘𝚝*
+`Moshi moshi` [😋](https://telegra.ph/file/f572da51b422a470818cb.jpg) `𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜` *Shinobu Kocho*
 `𝙸'𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚖𝚊𝚗𝚊𝚐𝚎 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙𝚜! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐏𝐥𝐚𝐜𝐞😇", url="t.me/EVIL_XOBOT?startgroup=true"),
+            text="Add me to your group 😇", url="http://t.me/DemonCorps_Robot?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="evil_"),
+        InlineKeyboardButton(text="About 💝", callback_data="evil_"),
         InlineKeyboardButton(
-            text="𝐌𝐲 𝐖𝐞𝐛🌐", url=f"http://evilbotz.art.blog"
+            text="My Channel", url=f"https://t.me/DemonCorpsTv"
         ),
      ],
      [  
-        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/EVIL_SUPPORT_CHAT"),
-        InlineKeyboardButton(text="𝐑𝐞𝐩𝐨🇮🇳", url="https://github.com/shrvan42/EvilBot"),
+        InlineKeyboardButton(text="Support 🛠", url="https://t.me/DemonCorps_Group"),
+        InlineKeyboardButton(text="Owner", url="https://t.me/Zero_Bx"),
     ], 
 
     [
@@ -88,9 +88,10 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *𝙴𝚟𝚒𝚕 𝚁𝚘𝚋𝚘𝚝* [👿](https://telegra.ph/file/a064bd8497a5f6f03b290.mp4)
+`Moshi Moshi!.. 𝙸'𝚖` 😋 *𝙴𝚟𝚒𝚕 𝚁𝚘𝚋𝚘𝚝* [😋](https://telegra.ph/file/f572da51b422a470818cb.jpg)
+ 
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
-evil_IMG = "https://telegra.ph/file/5dc8f5c53fb0c39ed983c.jpg"
+evil_IMG = "https://telegra.ph/file/f572da51b422a470818cb.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @shrvan42 \
  Supporting isnt always financial! \
